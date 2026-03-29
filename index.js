@@ -269,6 +269,4 @@ app.get('/listaProdutos', estaAutenticado, (req, res) => {
     res.send(html);
 });
 
-app.listen(porta, host, () => {
-    console.log(`Servidor rodando em http://${host}:${porta}`);
-});
+export default app;
