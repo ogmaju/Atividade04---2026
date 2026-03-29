@@ -1,0 +1,26 @@
+{
+  "name": "atividade04---2026",
+  "version": "1.0.0",
+  "description": "Atividade 4 - Uso de cookies e sessão - atividade prática.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogmaju/Atividade04---2026.git"
+  },
+  "author": "Maria julia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogmaju/Atividade04---2026/issues"
+  },
+  "homepage": "https://github.com/ogmaju/Atividade04---2026#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
